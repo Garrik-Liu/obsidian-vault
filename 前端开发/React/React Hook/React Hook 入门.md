@@ -125,23 +125,8 @@ You only want to use this hook when you need to do any DOM changes directly.
 This hook is optimized, to allow the engineer to ==make changes to a DOM node directly before the browser has a chance to paint==.
 
 ```ad-example
-<div class="rich-link-card-container"><a class="rich-link-card" href="https://codesandbox.io/s/brave-pine-ktew0e" target="_blank">
-	<div class="rich-link-image-container">
-		<div class="rich-link-image" style="background-image: url('https://codesandbox.io/embed/uselayouteffect-example-ktew0e')">
-	</div>
-	</div>
-	<div class="rich-link-card-text">
-		<h1 class="rich-link-card-title">useLayoutEffect Example - CodeSandbox</h1>
-		<p class="rich-link-card-description">
-		useLayoutEffect Example by Garrik-Liu using react, react-dom, react-scripts
-		</p>
-		<p class="rich-link-href">
-		https://codesandbox.io/s/brave-pine-ktew0e
-		</p>
-	</div>
-</a></div>
 
-
+[useLayoutEffect Example - CodeSandbox](https://codesandbox.io/s/brave-pine-ktew0e)
 
 ~~~tsx
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
