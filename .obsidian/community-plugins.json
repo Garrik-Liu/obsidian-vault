@@ -9,5 +9,12 @@
   "oz-image-plugin",
   "obsidian-auto-link-title",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-rich-links",
+  "obsidian-nomnoml-diagram",
+  "mx-bili-plugin",
+  "media-extended",
+  "convert-url-to-iframe",
+  "cmenu-plugin",
+  "drawio-obsidian"
 ]
