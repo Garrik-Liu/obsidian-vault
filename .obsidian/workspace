@@ -4,16 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "5b340c31b66c388f",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "前端开发/React/高阶组件/高阶组件入门.md",
-            "mode": "source",
-            "source": false
+        "id": "ff57823e214388ce",
+        "type": "split",
+        "children": [
+          {
+            "id": "5b340c31b66c388f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端开发/React/高阶组件/高阶组件入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3868ec7ba81999c5",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "前端开发/React/高阶组件/Untitled Diagram.svg"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -77,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/React/高阶组件/高阶组件入门.md",
+                "file": "前端开发/React/高阶组件/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端开发/React/高阶组件/高阶组件入门.md"
+                "file": "前端开发/React/高阶组件/Untitled Diagram.svg"
               }
             }
           },
@@ -104,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端开发/React/高阶组件/高阶组件入门.md",
+                "file": "前端开发/React/高阶组件/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,8 +161,9 @@
     "direction": "horizontal",
     "width": 332
   },
-  "active": "5b340c31b66c388f",
+  "active": "3868ec7ba81999c5",
   "lastOpenFiles": [
+    "前端开发/React/高阶组件/Untitled Diagram.svg",
     "前端开发/React/高阶组件/高阶组件入门.md",
     "前端开发/React/React Hook/React Hook 入门.md",
     "前端开发/React/React Hook/Drawing 2022-05-09 17.22.09.excalidraw.md",
@@ -154,7 +172,6 @@
     "前端开发/React/高阶组件.md",
     "前端开发/React/React Hook/Drawing 2022-05-08 22.17.48.excalidraw.md",
     "前端开发/React/React Hook/111.md",
-    "前端开发/React/React Hook/333.md",
-    "前端开发/React/React Hook/222.md"
+    "前端开发/React/React Hook/333.md"
   ]
 }
