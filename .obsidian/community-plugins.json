@@ -16,5 +16,6 @@
   "media-extended",
   "convert-url-to-iframe",
   "cmenu-plugin",
-  "drawio-obsidian"
+  "drawio-obsidian",
+  "obsidian-autocomplete-plugin"
 ]
