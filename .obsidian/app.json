@@ -4,5 +4,6 @@
   "promptDelete": false,
   "vimMode": false,
   "strictLineBreaks": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "readableLineLength": false
 }
