@@ -1,5 +1,3 @@
-# 为什么用 hook
-
 # Hook 概览
 
 ## useState
