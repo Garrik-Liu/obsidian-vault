@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5b340c31b66c388f",
+        "id": "636b93e4c61953da",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "前端开发/React/高阶组件/高阶组件入门.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端开发/React/高阶组件/高阶组件入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端开发/React/高阶组件/高阶组件入门.md"
+              }
             }
           },
           {
@@ -97,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端开发/React/高阶组件/高阶组件入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,12 +139,26 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "61334f2d5b66a009",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c1ba367651ba1eb",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 332
   },
-  "active": "5b340c31b66c388f",
+  "active": "636b93e4c61953da",
   "lastOpenFiles": [
     "前端开发/React/高阶组件/高阶组件入门.md",
     "前端开发/React/React Hook/React Hook 入门.md",
