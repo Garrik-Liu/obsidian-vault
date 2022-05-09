@@ -126,7 +126,7 @@ This hook is optimized, to allow the engineer to ==make changes to a DOM node di
 
 ```ad-example
 
-[useLayoutEffect Example - CodeSandbox](https://codesandbox.io/s/brave-pine-ktew0e)
+[useLayoutEffect Example - CodeSandbox](<iframe src="https://codesandbox.io/s/brave-pine-ktew0e" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>)
 
 ~~~tsx
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
