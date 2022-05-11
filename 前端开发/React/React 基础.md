@@ -12,6 +12,8 @@
 
 # Component Lifecycle
 
+# Component Communication
+
 # React Router
 
 # Redux
