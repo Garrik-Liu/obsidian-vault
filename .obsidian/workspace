@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "8780c6412bb479d5",
+        "id": "92995f4e3e3d3d8e",
         "type": "leaf",
         "state": {
           "type": "pdf",
@@ -180,17 +180,17 @@
     "direction": "horizontal",
     "width": 479.8839416503906
   },
-  "active": "8780c6412bb479d5",
+  "active": "92995f4e3e3d3d8e",
   "lastOpenFiles": [
     "Attachment/ReactJSNotesForProfessionals.pdf",
+    "Highlights for ReactJSNotesForProfessionals.md",
+    "Excalidraw/Drawing 2022-05-11 16.53.10.excalidraw.md",
     "前端开发/React/0 目录.md",
     "Excalidraw/Drawing 2022-05-11 16.52.56.excalidraw.md",
     "Excalidraw/Drawing 2022-05-11 16.52.54.excalidraw.md",
     "前端开发/React/React 入门.md",
     "前端开发/React/React Hook/0 One Page.md",
     "前端开发/React/React Hook/React Hook 入门.md",
-    "前端开发/编程范式/函数式编程/Rx.js 入门.md",
-    "前端开发/编程范式/函数式编程/函数式编程入门.md",
-    "前端开发/React/高阶组件/高阶组件入门.md"
+    "前端开发/编程范式/函数式编程/Rx.js 入门.md"
   ]
 }
