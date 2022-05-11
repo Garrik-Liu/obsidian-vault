@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "92995f4e3e3d3d8e",
+        "id": "db15c589647630de",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Attachment/ReactJSNotesForProfessionals.pdf"
+            "file": "前端开发/React/React 入门.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachment/ReactJSNotesForProfessionals.pdf",
+                "file": "前端开发/React/React 入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Attachment/ReactJSNotesForProfessionals.pdf"
+                "file": "前端开发/React/React 入门.md"
               }
             }
           },
@@ -110,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Attachment/ReactJSNotesForProfessionals.pdf",
+                "file": "前端开发/React/React 入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,15 +182,15 @@
     "direction": "horizontal",
     "width": 479.8839416503906
   },
-  "active": "92995f4e3e3d3d8e",
+  "active": "db15c589647630de",
   "lastOpenFiles": [
-    "Attachment/ReactJSNotesForProfessionals.pdf",
-    "Highlights for ReactJSNotesForProfessionals.md",
-    "Excalidraw/Drawing 2022-05-11 16.53.10.excalidraw.md",
+    "前端开发/React/React 入门.md",
     "前端开发/React/0 目录.md",
+    "Highlights for ReactJSNotesForProfessionals.md",
+    "Attachment/ReactJSNotesForProfessionals.pdf",
+    "Excalidraw/Drawing 2022-05-11 16.53.10.excalidraw.md",
     "Excalidraw/Drawing 2022-05-11 16.52.56.excalidraw.md",
     "Excalidraw/Drawing 2022-05-11 16.52.54.excalidraw.md",
-    "前端开发/React/React 入门.md",
     "前端开发/React/React Hook/0 One Page.md",
     "前端开发/React/React Hook/React Hook 入门.md",
     "前端开发/编程范式/函数式编程/Rx.js 入门.md"
