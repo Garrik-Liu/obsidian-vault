@@ -17,5 +17,11 @@
   "convert-url-to-iframe",
   "cmenu-plugin",
   "drawio-obsidian",
-  "obsidian-autocomplete-plugin"
+  "obsidian-autocomplete-plugin",
+  "obsidian-extract-pdf-highlights",
+  "breadcrumbs",
+  "file-tree-alternative",
+  "obsidian-icons-plugin",
+  "obsidian-outliner",
+  "obsidian-indent-lines"
 ]
