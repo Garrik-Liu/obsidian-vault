@@ -6,5 +6,6 @@
   "strictLineBreaks": true,
   "showLineNumber": false,
   "readableLineLength": false,
-  "attachmentFolderPath": "Attachment"
+  "attachmentFolderPath": "Attachment",
+  "fileSortOrder": "alphabetical"
 }
