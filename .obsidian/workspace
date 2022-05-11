@@ -7,8 +7,12 @@
         "id": "d4efc6f9ac2f9a10",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "前端开发/React/目录.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端开发/React/目录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,7 +101,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端开发/React/目录.md"
+              }
             }
           },
           {
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端开发/React/目录.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,9 +184,9 @@
   },
   "active": "d4efc6f9ac2f9a10",
   "lastOpenFiles": [
+    "前端开发/React/目录.md",
+    "前端开发/React/React 基础.md",
     "Attachment/ReactJSNotesForProfessionals.pdf",
-    "前端开发/React/React 入门.md",
-    "前端开发/React/0 目录.md",
     "前端开发/React/React Hook/React Hook 入门.md",
     "Excalidraw/Drawing 2022-05-11 16.53.10.excalidraw.md",
     "2022-05-11.md",
