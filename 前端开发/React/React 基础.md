@@ -226,14 +226,6 @@ componentDidMount()
 
 ---
 
-```ad-warning
-title: 被遗弃的生命周期方法
-
-#### componentWillMount
-它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
-This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
-```
-
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 更新：
 </div>
@@ -244,14 +236,33 @@ This function can be used to make ﬁnal changes to the component before it will
 4. [getSnapshotBeforeUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)
 5. [componentDidUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidupdate)
 
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+shouldComponentUpdate()
+</div>
 
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+getSnapshotBeforeUpdate()
+</div>
+
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+componentDidUpdate()
+</div>
+
+---
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 卸载：
 </div>
 
+---
 
+```ad-warning
+title: 被遗弃的生命周期方法
 
+#### componentWillMount
+它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
+This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
+```
 
 ## 函数组件
 
