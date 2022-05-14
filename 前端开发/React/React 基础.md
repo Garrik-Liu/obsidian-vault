@@ -171,9 +171,18 @@ title: 参考文档
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 constructor()
 </div>
-- 在 React 组件挂载之前，会调用它的构造函数。
-- 应在其他语句之前调用 `super(props)`。否则，`this.props` 在构造函数中可能会出现未定义的 bug。
+在 React 组件挂载之前，会调用它的构造函数。
+应在其他语句之前调用 `super(props)`。否则，`this.props` 在构造函数中可能会出现未定义的 bug。
 
+通常，在 React 中，构造函数仅用于以下两种情况：
+-   通过给 `this.state` 赋值对象来初始化[内部 state](https://zh-hans.reactjs.org/docs/state-and-lifecycle.html)。
+-   为[事件处理函数](https://zh-hans.reactjs.org/docs/handling-events.html)绑定实例
+
+要避免在构造函数中引入任何副作用或订阅。如遇到此场景，请将对应的操作放置在 `componentDidMount` 中
+
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+constructor()
+</div>
 
 ```ad-warning
 title: 被遗弃的生命周期方法
