@@ -4,7 +4,7 @@
 
 <iframe src="https://zh-hans.reactjs.org/docs/getting-started.html" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
 
-# Component
+# Component 创建
 
 构建 React 应用程序的基础就是组件。
 React 组件是继承 React.Component 类的 ES6 类。
@@ -29,6 +29,8 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 # Component Communication
 
 # 受控组件 & 非受控组件
+
+# 组件设计
 
 # React Router
 [[React Router]]
