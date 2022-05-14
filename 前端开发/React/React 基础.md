@@ -10,6 +10,7 @@
 可以通过如下的几种方式去创建 React 组件：
 
 继承 `React.Component` 类去创建 [React.Component – React](https://zh-hans.reactjs.org/docs/react-component.html)
+
 ```tsx
 import React from "react";
 
@@ -22,6 +23,7 @@ export default class HelloWorld extends React.Component {
 ```
 
 编写 **Functional Components 函数组件**
+
 ```tsx
 import React from 'react';
 
@@ -31,6 +33,7 @@ const HelloWorld = () => {
 ```
 
 使用 `create-react-class` 模块。[不使用 ES6 – React](https://zh-hans.reactjs.org/docs/react-without-es6.html)
+
 ```tsx
 var createReactClass = require('create-react-class');
 
@@ -55,8 +58,11 @@ import App from "./App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
-
 ```
+
+从 React 18 版本开始，`render` 数已被 `createRoot` 所取代。
+
+Create a React root for the supplied `container` and return the root. The root can be used to render a React element into the DOM with `render`:
 
 
 
@@ -67,6 +73,7 @@ React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension 的缩写
 JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
 
 每个 JSX 元素只是调用 `React.createElement` 的语法糖。
+
 ```js
 React.createElement(
   type,
@@ -76,6 +83,7 @@ React.createElement(
 ```
 
 例如，下面这段 JSX 代码，就会被翻译成：
+
 ```jsx
 <div className="shopping-list">
   <h1>Shopping List for {props.name}</h1>
