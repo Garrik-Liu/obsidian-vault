@@ -24,6 +24,8 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 # Props
 
+# Methods
+
 # Component Lifecycle
 
 # Component Communication
