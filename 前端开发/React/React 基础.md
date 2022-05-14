@@ -105,18 +105,15 @@ React.createElement("div", {
 ```
 
 ```ad-tip
-由于 JSX 会编译为 `React.createElement` 调用形式，所以 `React` 库也必须包含在 JSX 代码作用域内。
-```tsx
+在 React 17 版本以前，由于 JSX 会编译为 `React.createElement` 调用形式，所以 `React` 库也必须包含在 JSX 代码作用域内。
+~~~tsx
 import React from 'react';
-```
+~~~
+
+In React 17, `React.createElement('div')` is deprecated, now internally using `react/jsx-runtime` to render the JSX, meaning that we will have something such as `_jsx('div', {})`. Basically, this means that you don't need to import the React object anymore in order to write JSX code.
 
 ```
-```
 
-由于 JSX 会编译为 `React.createElement` 调用形式，所以 `React` 库也必须包含在 JSX 代码作用域内。
-```tsx
-import React from 'react';
-```
 
 
 ## JSX 语法
