@@ -167,7 +167,10 @@ title: 参考文档
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
+```ad-warning 被遗弃的生命周期方法
+`componentWillMount` 
 
+```
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 更新：
