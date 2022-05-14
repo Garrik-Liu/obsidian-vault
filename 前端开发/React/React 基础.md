@@ -112,6 +112,30 @@ import React from 'react';
 
 In React 17, `React.createElement('div')` is deprecated, now internally using `react/jsx-runtime` to render the JSX, meaning that we will have something such as `_jsx('div', {})`. Basically, this means that you don't need to import the React object anymore in order to write JSX code.
 
+例如，下面这段 JSX 代码在不同版本的 React 中会被编译成：
+~~~tsx
+function hello() {
+  return <div>Hello world!</div>;
+}
+~~~
+~~~tsx
+// react 17 版本以前
+function hello() {
+  return React.createElement("div", null, "Hello world!");
+}
+~~~
+~~~tsx
+// react 17 版本之后
+import { jsx as _jsx } from "react/jsx-runtime";
+
+function hello() {
+  return _jsx("div", {
+    children: "Hello world!"
+  });
+}
+~~~
+```
+
 ```
 
 
