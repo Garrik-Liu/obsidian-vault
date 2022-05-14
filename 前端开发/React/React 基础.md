@@ -103,7 +103,7 @@ React.createElement("div", {
 ```
 
 ## JSX 语法
-<iframe src="https://zh-hans.reactjs.org/docs/jsx-in-depth.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+·
 
 # State
 
