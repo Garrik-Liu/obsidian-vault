@@ -232,19 +232,19 @@ componentDidUpdate(prevProps, prevState, snapshot)
 
 `componentDidUpdate()` 会在更新后会被立即调用。首次渲染不会执行此方法。
 
-
-
-
-当组件更新后，可以在此处对 DOM 进行操作。
-可以对更新前后的 props 进行比较。
-
-
+当组件更新后，可以在此处**对 DOM 进行操作**。
+可以**对更新前后的 props 进行比较**。
+你也可以在 `componentDidUpdate()` 中**直接调用 `setState()`**，但请注意**它必须被包裹在一个条件语句里**，否则会导致死循环。
 
 ---
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 卸载：
 </div>
+当组件从 DOM 中移除时会调用如下方法：
+[**`componentWillUnmount()`**](https://zh-hans.reactjs.org/docs/react-component.html#componentwillunmount)
+
+#### [](https://zh-hans.reactjs.org/docs/react-component.html#error-handling)
 
 ```ad-warning
 title: 被遗弃的生命周期方法
