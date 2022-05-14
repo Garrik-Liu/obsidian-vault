@@ -7,5 +7,6 @@
   "showLineNumber": false,
   "readableLineLength": false,
   "attachmentFolderPath": "Attachment",
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "alwaysUpdateLinks": true
 }
