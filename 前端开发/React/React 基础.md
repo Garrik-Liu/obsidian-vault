@@ -48,7 +48,14 @@ var HelloWorld = createReactClass({
 在 React 18 版本以前，通过 `ReactDOM.render`  方法来把组件渲染到页面中：
 - ReactDOM 来自 react-dom 库
 - 方法需要两个参数，第一个参数是需要渲染的组件(what) ，第二个参数是渲染组件的位置(where) 
+
 ```tsx
+import ReactDOM from "react-dom";
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
 ```
 
 
