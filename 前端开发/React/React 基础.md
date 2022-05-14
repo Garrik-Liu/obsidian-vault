@@ -171,6 +171,7 @@ title: 参考文档
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 constructor()
 </div>
+
 在 React 组件挂载之前，会调用它的构造函数。
 应在其他语句之前调用 `super(props)`。否则，`this.props` 在构造函数中可能会出现未定义的 bug。
 
@@ -183,6 +184,10 @@ constructor()
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 getDerivedStateFromProps()
 </div>
+
+`getDerivedStateFromProps` 会在调用 render 方法之前调用，并且在初始挂载及后续更新时都会被调用。
+它应返回一个对象来更新 state，如果返回 `null` 则不更新任何内容。
+此方法适用于[罕见的用例](https://zh-hans.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state)，即 state 的值在任何时候都取决于 props。
 
 
 ```ad-warning
