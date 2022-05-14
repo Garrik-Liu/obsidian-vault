@@ -161,11 +161,13 @@ title: 参考文档
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
     挂载：
 </div>
-当组件实例被创建并插入 DOM 中时，其生命周期调用顺序如下：
--   [**`constructor()`**](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
--   [`static getDerivedStateFromProps()`](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
--   [**`render()`**](https://zh-hans.reactjs.org/docs/react-component.html#render)
--   [**`componentDidMount()`**](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
+当组件实例被创建并插入 DOM 中时，其生命周期调用顺序如下：.
+1. [constructor()](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
+2. [static getDerivedStateFromProps()](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
+3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
+4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
+
+
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 更新：
