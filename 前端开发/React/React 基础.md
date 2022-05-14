@@ -181,6 +181,8 @@ constructor()
 
 要避免在构造函数中引入任何副作用或订阅。如遇到此场景，请将对应的操作放置在 `componentDidMount` 中
 
+---
+
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 static getDerivedStateFromProps()
 </div>
@@ -189,13 +191,27 @@ static getDerivedStateFromProps()
 它应返回一个对象来更新 state，如果返回 `null` 则不更新任何内容。
 此方法适用于[罕见的用例](https://zh-hans.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state)，即 state 的值在任何时候都取决于 props。
 
+---
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 render()
 </div>
 
 `render()` 方法是 class 组件中唯一必须实现的方法。
-当 `render` 被调用时，它会检查 `this.props` 和 `this.state` 的变化并返回以下类型之一
+
+当 `render` 被调用时，它会检查 `this.props` 和 `this.state` 的变化并返回以下类型之一：
+-   **React 元素**。通常通过 JSX 创建。例如，`<div />` 会被 React 渲染为 DOM 节点，`<MyComponent />` 会被 React 渲染为自定义组件，无论是 `<div />` 还是 `<MyComponent />` 均为 React 元素。
+-   **数组或 fragments**。 使得 render 方法可以返回多个元素。欲了解更多详细信息，请参阅 [fragments](https://zh-hans.reactjs.org/docs/fragments.html) 文档。
+-   **Portals**。可以渲染子节点到不同的 DOM 子树中。欲了解更多详细信息，请参阅有关 [portals](https://zh-hans.reactjs.org/docs/portals.html) 的文档
+-   **字符串或数值类型**。它们在 DOM 中会被渲染为文本节点
+-   **布尔类型或 `null`**。什么都不渲染。（主要用于支持返回 `test && <Child />` 的模式，其中 test 为布尔类型。)
+
+`render()` 函数应该为纯函数，这意味着在不修改组件 state 的情况下，每次调用时都返回相同的结果，并且它不会直接与浏览器交互。
+如需与浏览器进行交互，请在 `componentDidMount()` 或其他生命周期方法中执行你的操作。保持 `render()` 为纯函数，可以使组件更容易思考。
+
+---
+
+
 
 ```ad-warning
 title: 被遗弃的生命周期方法
