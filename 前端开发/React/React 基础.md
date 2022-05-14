@@ -168,7 +168,9 @@ title: 参考文档
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
-ovxbt
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+constructor()
+</div>
 
 
 ```ad-warning
