@@ -149,6 +149,9 @@ title: 参考文档
 # Methods
 
 # Component Lifecycle
+## Component Creation
+## Component Remove
+
 
 # Component Communication
 
