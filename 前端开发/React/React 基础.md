@@ -252,14 +252,6 @@ componentWillUnmount()
 在此方法中执行必要的清理操作，例如，清除 timer，取消网络请求或清除在 `componentDidMount()` 中创建的订阅等。
 `componentWillUnmount()` 中**不应调用 `setState()`**，因为该组件将永远不会重新渲染。
 
-```ad-warning
-title: 被遗弃的生命周期方法
-
-#### componentWillMount
-它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
-This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
-```
-
 ## 函数组件
 
 # Component Communication
