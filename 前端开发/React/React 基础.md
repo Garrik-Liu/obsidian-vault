@@ -171,6 +171,8 @@ title: 参考文档
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 constructor()
 </div>
+- 在 React 组件挂载之前，会调用它的构造函数。
+- 应在其他语句之前调用 `super(props)`。否则，`this.props` 在构造函数中可能会出现未定义的 bug。
 
 
 ```ad-warning
