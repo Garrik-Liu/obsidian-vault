@@ -149,8 +149,9 @@ title: 参考文档
 # Methods
 
 # Component Lifecycle
-## Component Creation
-## Component Remove
+## Creation
+## Remove
+## Update
 
 
 # Component Communication
@@ -169,7 +170,7 @@ title: 参考文档
 [[React Router]]
 ```
 
-# Redux
+# Redux & Mobx
 ```ad-info
 title: 参考文档
 
