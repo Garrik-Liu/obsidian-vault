@@ -21,11 +21,17 @@ export default class HelloWorld extends React.Component {
 
 ```
 
-使用 `create-react-class` 模块
+
+
+使用 `create-react-class` 模块。[不使用 ES6 – React](https://zh-hans.reactjs.org/docs/react-without-es6.html)
 ```tsx
 var createReactClass = require('create-react-class');
 
-
+var HelloWorld = createReactClass({
+  render: function() {
+    return <h1>Hello, World</h1>;
+  }
+});
 ```
 render()是 React 组件唯一必需的方法。React 通过该方法的返回值来确定要渲染到页面的内容
 React 组件最终渲染为浏览器中显示的 HTML。因此,组件的 render()方法需要描述视图该怎样表示为 HTML。
@@ -36,6 +42,10 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 不同类型的 React 元素声明使用不同的大小写表示。
 在 React 中,原生 HTML 元素始终以小写字母开头,而 React 组件名称始终以大写字母开头。
+
+
+
+# 组件渲染
 
 # State
 
