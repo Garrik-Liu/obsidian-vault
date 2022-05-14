@@ -167,8 +167,9 @@ title: 参考文档
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
-```ad-warning 被遗弃的生命周期方法
-`componentWillMount` 
+```ad-warning
+title
+#### `componentWillMount` 
 它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
 This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
 
