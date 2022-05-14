@@ -7,11 +7,9 @@
 # Component 创建
 
 构建 React 应用程序的基础就是组件。
-声明 React 组件有两种方法:
+可以通过如下的几种方式去创建 React 组件：
 
-(2) 导入并使用 createReactClass()方法。
-1. 通过继承 `React.Component` 类去创建
-
+通过继承 `React.Component` 类去创建
 ```tsx
 import React from "react";
 
@@ -23,6 +21,12 @@ export default class HelloWorld extends React.Component {
 
 ```
 
+使用 `create-react-class` 模块
+```tsx
+var createReactClass = require('create-react-class');
+
+
+```
 render()是 React 组件唯一必需的方法。React 通过该方法的返回值来确定要渲染到页面的内容
 React 组件最终渲染为浏览器中显示的 HTML。因此,组件的 render()方法需要描述视图该怎样表示为 HTML。
 返回值的语法看起来和传统的 JavaScript 有些不像。该语法称为 JavaScript 扩展语法(JavaScript eXtension syntax,JSX) ,是由 Facebook 编写的 JavaScript 语法的扩展。
