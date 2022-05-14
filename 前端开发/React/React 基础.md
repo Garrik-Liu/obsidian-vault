@@ -181,8 +181,6 @@ constructor()
 
 要避免在构造函数中引入任何副作用或订阅。如遇到此场景，请将对应的操作放置在 `componentDidMount` 中
 
----
-
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 static getDerivedStateFromProps()
 </div>
@@ -190,8 +188,6 @@ static getDerivedStateFromProps()
 `getDerivedStateFromProps` 会在调用 render 方法之前调用，并且在初始挂载及后续更新时都会被调用。
 它应返回一个对象来更新 state，如果返回 `null` 则不更新任何内容。
 此方法适用于[罕见的用例](https://zh-hans.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state)，即 state 的值在任何时候都取决于 props。
-
----
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 render()
@@ -208,8 +204,6 @@ render()
 
 `render()` 函数应该为纯函数，这意味着在不修改组件 state 的情况下，每次调用时都返回相同的结果，并且它不会直接与浏览器交互。
 如需与浏览器进行交互，请在 `componentDidMount()` 或其他生命周期方法中执行你的操作。保持 `render()` 为纯函数，可以使组件更容易思考。
-
----
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 componentDidMount()
@@ -239,6 +233,9 @@ componentDidMount()
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 shouldComponentUpdate()
 </div>
+根据 `shouldComponentUpdate()` 的返回值，判断 React 组件的输出是否受当前 state 或 props 更改的影响。
+当 props 或 state 发生变化时，`shouldComponentUpdate()` 会在渲染执行之前被调用。返回值默认为 true。
+首次渲染或使用 `forceUpdate()` 时不会调用该方法。
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 getSnapshotBeforeUpdate()
@@ -253,8 +250,6 @@ componentDidUpdate()
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 卸载：
 </div>
-
----
 
 ```ad-warning
 title: 被遗弃的生命周期方法
