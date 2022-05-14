@@ -57,7 +57,7 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 ## 什么是 JSX
 React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
 
-React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension。
+React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension 的缩写
 JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
 
 每个 JSX 元素只是调用 `React.createElement` 的语法糖。
@@ -81,29 +81,8 @@ React.createElement("div", {
 }, React.createElement("h1", null, "Shopping List for ", props.name));
 ```
 
-在 React 中，原生 HTML 元素始终以**小写字母开头**，而 React 组件名称始终以**大写字母开头**。
-```tsx
-const Button = ({ children }) => {
-  return <button>自定义的：{children}</button>;
-};
-
-const HelloWorld = () => {
-  return (
-    <div>
-      {/* HTML 元素 */}
-      <button>点我一下</button>
-      <br />
-      {/* React  组件 */}
-      <Button>点我一下</Button>
-    </div>
-  );
-};
-
-export default HelloWorld;
-```
-
 ## JSX 语法
-
+<iframe src="https://zh-hans.reactjs.org/docs/jsx-in-depth.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
 # State
 
