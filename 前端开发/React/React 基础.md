@@ -41,13 +41,8 @@ var HelloWorld = createReactClass({
 });
 ```
 
+React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
 
-render()是 React 组件唯一必需的方法。React 通过该方法的返回值来确定要渲染到页面的内容
-React 组件最终渲染为浏览器中显示的 HTML。因此,组件的 render()方法需要描述视图该怎样表示为 HTML。
-返回值的语法看起来和传统的 JavaScript 有些不像。该语法称为 JavaScript 扩展语法(JavaScript eXtension syntax,JSX) ,是由 Facebook 编写的 JavaScript 语法的扩展。
-React 期望 render()方法返回单个子元素。 它可以是 DOM 组件的虚拟表示, 也可以返回 null 或false 这样的假值。
-
-ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。ReactDOM.render()方法需要两个参数,第一个参数是需要渲染的组件(what) ,第二个参数是渲染组件的位置(where) : ReactDOM.render([what], [where]);
 
 
 ---
@@ -55,8 +50,6 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 # JSX
 
 ## 什么是 JSX
-React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
-
 React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension 的缩写
 JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
 
