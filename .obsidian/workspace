@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端开发/React/React 基础/index.md",
+            "file": "前端开发/React/React 基础/组件生命周期.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端开发/React/React 基础/index.md",
+                "file": "前端开发/React/React 基础/组件生命周期.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端开发/React/React 基础/index.md"
+                "file": "前端开发/React/React 基础/组件生命周期.md"
               }
             }
           },
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端开发/React/React 基础/index.md",
+                "file": "前端开发/React/React 基础/组件生命周期.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,8 +184,8 @@
   },
   "active": "d4efc6f9ac2f9a10",
   "lastOpenFiles": [
-    "前端开发/React/React 基础/index.md",
     "前端开发/React/React 基础/组件生命周期.md",
+    "前端开发/React/React 基础/index.md",
     "前端开发/React/React 基础/JSX 基础.md",
     "前端开发/React/高阶组件/高阶组件入门.md",
     "前端开发/React/测试/React 单元测试.md",
