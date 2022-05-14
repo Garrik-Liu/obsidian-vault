@@ -10,6 +10,18 @@
 React 组件是继承 React.Component 类的 ES6 类。
 声明 React 组件有两种方法: (1) 作为 ES6 类(如上) ; (2) 导入并使用 createReactClass()方法。
 
+```tsx
+import React, { Component } from 'react'; import { render } from 'react-dom';
+
+class FirstComponent extends Component {
+
+render() { return ( <div> Hello, {this.props.name}! I am a FirstComponent.
+
+</div> ); }
+
+}
+```
+
 render()是 React 组件唯一必需的方法。React 通过该方法的返回值来确定要渲染到页面的内容
 React 组件最终渲染为浏览器中显示的 HTML。因此,组件的 render()方法需要描述视图该怎样表示为 HTML。
 返回值的语法看起来和传统的 JavaScript 有些不像。该语法称为 JavaScript 扩展语法(JavaScript eXtension syntax,JSX) ,是由 Facebook 编写的 JavaScript 语法的扩展。
