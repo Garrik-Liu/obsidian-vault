@@ -168,7 +168,8 @@ title: 参考文档
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
-`#### constructor()`
+ovxbt
+
 
 ```ad-warning
 title: 被遗弃的生命周期方法
