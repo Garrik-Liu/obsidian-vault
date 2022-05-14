@@ -6,10 +6,7 @@ title: 参考文档
 
 <iframe src="https://zh-hans.reactjs.org/docs/getting-started.html" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
 
-# Component
 [[组件创建 & 挂载]]
-
-# JSX
 [[JSX 基础]]
 
 # State
@@ -18,7 +15,7 @@ title: 参考文档
 
 # Methods
 
-# Component Lifecycle
+[[组件生命周期]]
 
 # Component Communication
 
@@ -30,11 +27,7 @@ title: 参考文档
 [React 哲学 – React](https://zh-hans.reactjs.org/docs/thinking-in-react.html)
 ```
 
-# React Router
-```ad-info
-title: 参考文档
 [[React Router]]
-```
 
 # Redux & Mobx
 ```ad-info
