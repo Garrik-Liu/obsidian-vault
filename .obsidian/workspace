@@ -11,7 +11,19 @@
           "state": {
             "file": "前端开发/React/React 基础/组件生命周期.md",
             "mode": "source",
-            "source": false
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "327ca0a8ef11e24a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "前端开发/React/React 基础/组件生命周期.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 269.0121879577637
+    "width": 158.01218795776367
   },
   "right": {
     "id": "bd25eeffcc86e849",
@@ -162,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "61334f2d5b66a009",
@@ -180,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.1723327636719
+    "width": 134.1723175048828
   },
   "active": "d4efc6f9ac2f9a10",
   "lastOpenFiles": [
