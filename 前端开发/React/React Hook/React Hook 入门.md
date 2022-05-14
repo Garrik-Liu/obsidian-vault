@@ -1,3 +1,8 @@
+---
+date created: 2022-05-15 00:26
+date updated: 2022-05-15 00:26
+---
+
 # Hook 概览
 
 ## useState
@@ -8,7 +13,7 @@ React 会在重复渲染时保留这个 state。
 
 useState 会返回一对值：**当前**状态 & 一个让你更新它的函数。
 
-``` tsx
+```tsx
 import React, { useState } from 'react';
 
 function Example() {
@@ -32,6 +37,7 @@ const [todos, setTodos] = useState([{ text: '学习 Hook' }]);
 ```
 
 ## useEffect
+
 Effect Hook 可以让你在函数组件中执行副作用操作。
 
 通过使用这个 Hook，你可以告诉 React 组件需要在渲染后执行某些操作。React 会保存你传递的函数（我们将它称之为 “effect”），并且在执行 DOM 更新之后调用它。
@@ -114,6 +120,7 @@ React.useEffect(() => {
 ```
 
 ## useLayoutEffect
+
 The React **useLayouEffect** hook is written the same way as **useEffect**, and almost behaves the same way.
 
 One of the key differences is that it gets executed right ==after a React component **render** lifecycle, and before **useEffect** gets triggered==.
@@ -154,6 +161,7 @@ export default function App() {
 ```
 
 ## useContext
+
 React Context is a way to manage state globally.
 
 It can be used together with the useState Hook to share state between deeply nested components more easily than with useState alone.
@@ -223,7 +231,9 @@ export default function App() {
 }
 ~~~
 ```
+
 ## useMemo
+
 ```tsx
 const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
 ```
@@ -332,7 +342,6 @@ const Todos = ({ todos, addTodo }) => {
 export default memo(Todos);
 ~~~
 ```
-  
 
 下面这个示例中，Todos 组件使用了 memo，然后接收 todos 和 addTodo 方法作为参数。
 
@@ -388,6 +397,7 @@ const addTodo = useCallback(() => {
 ![](https://cdn.nlark.com/yuque/0/2022/png/271133/1652004970458-962edb97-2c60-4369-b5dc-1ea6b5cab2c0.png)
 
 ## useReducer
+
 是 [`useState`](https://zh-hans.reactjs.org/docs/hooks-reference.html#usestate) 的替代方案。它接收一个形如 `(state, action) => newState` 的 reducer，并返回当前的 state 以及与其配套的 `dispatch` 方法。
 
 在某些场景下，`useReducer` 会比 `useState` 更适用，例如 state 逻辑较复杂且包含多个子值，或者下一个 state 依赖于之前的 state 等。
@@ -483,6 +493,7 @@ export default function App() {
 ```
 
 ## useRef
+
 `useRef` 返回一个可变的 ref 对象，其 `.current` 属性被初始化为传入的参数（`initialValue`）。返回的 ref 对象在组件的整个生命周期内持续存在。
 
 ```ad-example
@@ -545,6 +556,7 @@ function MeasureExample() {
 注意到我们传递了 `[]` 作为 `useCallback` 的依赖列表。这确保了 ref callback 不会在再次渲染时改变，因此 React 不会在非必要的时候调用它。在此示例中，当且仅当组件挂载和卸载时，callback ref 才会被调用。
 
 ## useImperativeHandle
+
 `useImperativeHandle` 可以让你在使用 `ref` 时自定义暴露给父组件的实例值。
 
 `useImperativeHandle` 应当与 [`forwardRef`](https://zh-hans.reactjs.org/docs/react-api.html#reactforwardref) 一起使用。`React.forwardRef` 会创建一个React组件，这个组件能够将其接受的 [ref](https://zh-hans.reactjs.org/docs/refs-and-the-dom.html) 属性转发到其组件树下的另一个组件中。
@@ -591,6 +603,7 @@ export default function App() {
 ```
 
 # 自定义 Hook
+
 通过自定义 Hook，可以将组件逻辑提取到可重用的函数中。
 
 自定义的 Hook，命名规范以 use 开头，来表明其是一个 Hook。

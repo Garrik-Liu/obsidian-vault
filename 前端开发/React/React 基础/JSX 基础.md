@@ -1,4 +1,10 @@
+---
+date created: 2022-05-15 00:26
+date updated: 2022-05-15 00:26
+---
+
 # 什么是 JSX
+
 React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension 的缩写
 JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
 
@@ -19,6 +25,7 @@ React.createElement(
   <h1>Shopping List for {props.name}</h1>
 </div>;
 ```
+
 ```ts
 React.createElement("div", {
   className: "shopping-list"
@@ -58,8 +65,8 @@ function hello() {
 ```
 
 # JSX 语法
+
 ```ad-info
 title: 参考文档
 [深入 JSX – React](https://zh-hans.reactjs.org/docs/jsx-in-depth.html)
 ```
-
