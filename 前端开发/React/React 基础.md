@@ -56,7 +56,7 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
 
-React 支持 JSX 语法糖去编写组件的渲染内容。
+React 使用了 JSX 语法糖，JSX 可以让开发者用
 JSX allows us to write HTML elements in JavaScript and place them in the DOM
 
 
