@@ -68,6 +68,18 @@ React.createElement(
 )
 ```
 
+例如，下面这段 JSX 代码，就会被翻译成：
+```jsx
+<div className="shopping-list">
+  <h1>Shopping List for {props.name}</h1>
+</div>;
+```
+```ts
+React.createElement("div", {
+  className: "shopping-list"
+}, React.createElement("h1", null, "Shopping List for ", props.name));
+```
+
 
 在 React 中，原生 HTML 元素始终以**小写字母开头**，而 React 组件名称始终以**大写字母开头**。
 ```tsx
@@ -89,7 +101,6 @@ const HelloWorld = () => {
 
 export default HelloWorld;
 ```
-![](https://cdn.jsdelivr.net/gh/Garrik-Liu/image-save@main/imgs/20220514164303.png)
 
 # State
 
