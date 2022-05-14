@@ -223,19 +223,22 @@ componentDidMount()
 5. [**componentDidUpdate()**](https://zh-hans.reactjs.org/docs/react-component.html#componentdidupdate)
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
-shouldComponentUpdate()
-</div>
-根据 `shouldComponentUpdate()` 的返回值，判断 React 组件的输出是否受当前 state 或 props 更改的影响。
-当 props 或 state 发生变化时，`shouldComponentUpdate()` 会在渲染执行之前被调用。返回值默认为 true。
-首次渲染或使用 `forceUpdate()` 时不会调用该方法。
-
-<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
-getSnapshotBeforeUpdate()
-</div>
-
-<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 componentDidUpdate()
 </div>
+
+```ts
+componentDidUpdate(prevProps, prevState, snapshot)
+```
+
+`componentDidUpdate()` 会在更新后会被立即调用。首次渲染不会执行此方法。
+
+
+
+
+当组件更新后，可以在此处对 DOM 进行操作。
+可以对更新前后的 props 进行比较。
+
+
 
 ---
 
