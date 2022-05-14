@@ -1,5 +1,7 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "",
-  "translucency": false
+  "theme": "moonstone",
+  "cssTheme": "Atom",
+  "translucency": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }
