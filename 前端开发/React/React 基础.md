@@ -149,6 +149,8 @@ title: 参考文档
 # Methods
 
 # Component Lifecycle
+每个组件都包含 “生命周期方法”，你可以重写这些方法，以便于在运行过程中特定的阶段执行这些方法。
+
 ## Creation
 ## Remove
 ## Update
