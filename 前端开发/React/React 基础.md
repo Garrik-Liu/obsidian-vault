@@ -74,7 +74,8 @@ const HelloWorld = () => {
 
 export default HelloWorld;
 ```
-![](https://cdn.jsdelivr.net/gh/Garrik-Liu/image-save@main/imgs/20220514164239.png)
+![](https://cdn.jsdelivr.net/gh/Garrik-Liu/image-save@main/imgs/20220514164303.png)
+
 
 
 
