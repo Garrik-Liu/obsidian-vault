@@ -60,9 +60,10 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-从 React 18 版本开始，`render` 数已被 `createRoot` 所取代。
-
-Create a React root for the supplied `container` and return the root. The root can be used to render a React element into the DOM with `render`:
+从 React 18 版本开始，`render` 数已被 `createRoot` 所取代。[ReactDOMClient – React](https://zh-hans.reactjs.org/docs/react-dom-client.html#createroot)
+- `createRoot(container[, options])`
+- Create a React root for the supplied `container` and return the root. 
+- The root can be used to render a React element into the DOM with `render`
 
 
 
