@@ -211,7 +211,20 @@ render()
 
 ---
 
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+componentDidMount()
+</div>
 
+`componentDidMount()` 会在组件挂载后（插入 DOM 树中）立即调用。
+依赖于 DOM 节点的初始化应该放在这里。如需通过网络请求获取数据，此处是实例化请求的好地方。
+
+这个方法是比较适合添加订阅的地方。如果添加了订阅，请不要忘记在 `componentWillUnmount()` 里取消订阅。
+
+你可以在 `componentDidMount()` 里**直接调用 `setState()`**。
+它将触发额外渲染，但此渲染会发生在浏览器更新屏幕之前。如此保证了即使在 `render()` 两次调用的情况下，用户也不会看到中间状态。
+请谨慎使用该模式，因为它会导致性能问题。通常，你应该在 `constructor()` 中初始化 state。
+
+---
 
 ```ad-warning
 title: 被遗弃的生命周期方法
