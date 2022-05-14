@@ -26,7 +26,7 @@ export default class HelloWorld extends React.Component {
 
 ```
 
-编写 **Functional Components 函数组件**
+编写 **Functional Components 函数式组件**
 
 ```tsx
 import React from 'react';
