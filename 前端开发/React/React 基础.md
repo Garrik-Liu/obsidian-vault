@@ -30,7 +30,12 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 # 受控组件 & 非受控组件
 
-# 组件设计
+# React 应用设计
+```ad-info
+参考文档：
+- [React 哲学 – React](https://zh-hans.reactjs.org/docs/thinking-in-react.html)
+
+```
 
 # React Router
 [[React Router]]
