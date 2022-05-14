@@ -163,10 +163,10 @@ title: 参考文档
     挂载：
 </div>
 当组件实例被创建并插入 DOM 中时，其生命周期调用顺序如下：.
-1. [constructor()](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
+1. [**constructor()**](https://zh-hans.reactjs.org/docs/react-component.html#constructor)
 2. [static getDerivedStateFromProps()](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
-3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
-4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
+3. [**render()**](https://zh-hans.reactjs.org/docs/react-component.html#render)
+4. [**componentDidMount()**](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 constructor()
@@ -180,14 +180,6 @@ constructor()
 -   为[事件处理函数](https://zh-hans.reactjs.org/docs/handling-events.html)绑定实例
 
 要避免在构造函数中引入任何副作用或订阅。如遇到此场景，请将对应的操作放置在 `componentDidMount` 中
-
-<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
-static getDerivedStateFromProps()
-</div>
-
-`getDerivedStateFromProps` 会在调用 render 方法之前调用，并且在初始挂载及后续更新时都会被调用。
-它应返回一个对象来更新 state，如果返回 `null` 则不更新任何内容。
-此方法适用于[罕见的用例](https://zh-hans.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state)，即 state 的值在任何时候都取决于 props。
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 render()
@@ -228,7 +220,7 @@ componentDidMount()
 2. [shouldComponentUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#shouldcomponentupdate)
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [getSnapshotBeforeUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)
-5. [componentDidUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidupdate)
+5. [**componentDidUpdate()**](https://zh-hans.reactjs.org/docs/react-component.html#componentdidupdate)
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 shouldComponentUpdate()
