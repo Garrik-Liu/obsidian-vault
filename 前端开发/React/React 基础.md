@@ -6,6 +6,13 @@
 
 # Component
 
+构建 React 应用程序的基础就是组件。
+React 组件是继承 React.Component 类的 ES6 类。
+声明 React 组件有两种方法: (1) 作为 ES6 类(如上) ; (2) 导入并使用 createReactClass()方法。
+
+render()是 React 组件唯一必需的方法。React 通过该方法的返回值来确定要渲染到页面的内容
+React 组件最终渲染为浏览器中显示的 HTML。因此,组件的 render()方法需要描述视图该怎样表示为 HTML。
+
 # State
 
 # Props
