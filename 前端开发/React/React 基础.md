@@ -56,8 +56,10 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
 
-React 使用了 JSX 语法糖。
-JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的渲染内容。
+React 支持 JSX 语法扩展。
+JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
+
+每个 JSX 元素只是调用 `React.createElement(component, props, ...children)` 的语法糖。
 
 
 在 React 中，原生 HTML 元素始终以**小写字母开头**，而 React 组件名称始终以**大写字母开头**。
