@@ -55,6 +55,26 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 # JSX
 
 在 React 中，原生 HTML 元素始终以**小写字母开头**，而 React 组件名称始终以**大写字母开头**。
+```tsx
+const Button = ({ children }) => {
+  return <button>自定义的：{children}</button>;
+};
+
+const HelloWorld = () => {
+  return (
+    <div>
+      {/* HTML 元素 */}
+      <button>点我一下</button>
+      <br />
+      {/* React  组件 */}
+      <Button>点我一下</Button>
+    </div>
+  );
+};
+
+export default HelloWorld;
+```
+![](https://cdn.jsdelivr.net/gh/Garrik-Liu/image-save@main/imgs/20220514164239.png)
 
 
 
