@@ -11,19 +11,7 @@
           "state": {
             "file": "前端开发/React/React 基础/组件生命周期.md",
             "mode": "source",
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "327ca0a8ef11e24a",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "前端开发/React/React 基础/组件生命周期.md",
-            "mode": "preview",
-            "source": true
+            "source": false
           }
         }
       }
