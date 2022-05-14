@@ -154,6 +154,7 @@ title: 参考文档
 根据创建组件的方式不同，组件的生命周期也不相同。
 
 ## Class 组件
+[React.Component – React](https://zh-hans.reactjs.org/docs/react-component.html)
 通过继承 `React.Component` 创建的组件。生命周期如下：
 
 <iframe src="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
@@ -167,8 +168,10 @@ title: 参考文档
 3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
 4. [componentDidMount()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidmount)
 
+`#### constructor()`
+
 ```ad-warning
-title
+title: 被遗弃的生命周期方法
 #### `componentWillMount` 
 它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
 This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
