@@ -8,13 +8,7 @@ title: 参考文档
 
 [[组件创建 & 挂载]]
 [[JSX 基础]]
-
-# State
-
-# Props
-
-# Methods
-
+[[State & Props]]
 [[组件生命周期]]
 
 # Component Communication
