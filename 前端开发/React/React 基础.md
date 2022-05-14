@@ -136,10 +136,6 @@ function hello() {
 ~~~
 ```
 
-```
-
-
-
 ## JSX 语法
 ```ad-info
 title: 参考文档
