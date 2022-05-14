@@ -65,10 +65,16 @@ ReactDOM.render(<App />, rootElement);
 - Create a React root for the supplied `container` and return the root. 
 - The root can be used to render a React element into the DOM with `render`
 
+```tsx
+import ReactDOM from "react-dom/client";
+import App from "./App";
 
+const rootElement = document.getElementById("root");
+const root = ReactDOM.createRoot(rootElement);
+root.render(<App />);
+```
 
 # JSX
-
 ## 什么是 JSX
 React 支持 JSX 语法扩展。全称 JavaScript Syntax Extension 的缩写
 JSX 可以让开发者用类似于编写 HTML 的方式去定义组件的 UI。
@@ -95,8 +101,6 @@ React.createElement("div", {
   className: "shopping-list"
 }, React.createElement("h1", null, "Shopping List for ", props.name));
 ```
-
-
 
 ## JSX 语法
 <iframe src="https://zh-hans.reactjs.org/docs/jsx-in-depth.html" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
