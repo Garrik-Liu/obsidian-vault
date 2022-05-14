@@ -237,6 +237,14 @@ This function can be used to make ﬁnal changes to the component before it will
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 更新：
 </div>
+当组件的 props 或 state 发生变化时会触发更新。组件更新的生命周期调用顺序如下：
+1. [static getDerivedStateFromProps()](https://zh-hans.reactjs.org/docs/react-component.html#static-getderivedstatefromprops)
+2. [shouldComponentUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#shouldcomponentupdate)
+3. [render()](https://zh-hans.reactjs.org/docs/react-component.html#render)
+4. [getSnapshotBeforeUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#getsnapshotbeforeupdate)
+5. [componentDidUpdate()](https://zh-hans.reactjs.org/docs/react-component.html#componentdidupdate)
+
+
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
 卸载：
