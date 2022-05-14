@@ -10,8 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "前端开发/React/React 基础/JSX 基础.md",
-            "mode": "preview",
-            "source": true
+            "mode": "source",
+            "source": false
           }
         }
       }
