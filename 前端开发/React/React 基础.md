@@ -242,9 +242,15 @@ componentDidUpdate(prevProps, prevState, snapshot)
 卸载：
 </div>
 当组件从 DOM 中移除时会调用如下方法：
-[**`componentWillUnmount()`**](https://zh-hans.reactjs.org/docs/react-component.html#componentwillunmount)
+1. [componentWillUnmount()](https://zh-hans.reactjs.org/docs/react-component.html#componentwillunmount)
 
-#### [](https://zh-hans.reactjs.org/docs/react-component.html#error-handling)
+<div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+componentWillUnmount()
+</div>
+
+`componentWillUnmount()` 会在组件卸载及销毁之前直接调用。
+在此方法中执行必要的清理操作，例如，清除 timer，取消网络请求或清除在 `componentDidMount()` 中创建的订阅等。
+`componentWillUnmount()` 中**不应调用 `setState()`**，因为该组件将永远不会重新渲染。
 
 ```ad-warning
 title: 被遗弃的生命周期方法
