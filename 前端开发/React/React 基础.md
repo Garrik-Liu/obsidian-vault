@@ -181,15 +181,16 @@ constructor()
 要避免在构造函数中引入任何副作用或订阅。如遇到此场景，请将对应的操作放置在 `componentDidMount` 中
 
 <div style="font-size: 18px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
-constructor()
+getDerivedStateFromProps()
 </div>
+
 
 ```ad-warning
 title: 被遗弃的生命周期方法
-#### `componentWillMount` 
+
+#### componentWillMount
 它在 `render()` 之前调用，因此在此方法中同步调用 `setState()` 不会触发额外渲染。
 This function can be used to make ﬁnal changes to the component before it will be added to the DOM.
-
 ```
 
 <div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
