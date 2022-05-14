@@ -6,7 +6,9 @@ title: 参考文档
 
 <iframe src="https://zh-hans.reactjs.org/docs/getting-started.html" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
 
-# Component 创建
+# Component
+
+## 创建方式
 
 构建 React 应用程序的基础就是组件。
 可以通过如下的几种方式去创建 React 组件：
@@ -150,6 +152,9 @@ title: 参考文档
 
 # Component Lifecycle
 每个组件都包含 “生命周期方法”，你可以重写这些方法，以便于在运行过程中特定的阶段执行这些方法。
+根据创建组件的方式不同，组件的生命周期也不相同。
+
+## 继承 `React.Component` 类
 
 <iframe src="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
