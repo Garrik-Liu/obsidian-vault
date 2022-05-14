@@ -158,6 +158,8 @@ title: 参考文档
 
 <iframe src="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
+挂载：
+
 
 
 ## 函数组件
