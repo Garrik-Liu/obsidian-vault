@@ -10,10 +10,8 @@ title: 参考文档
 [[JSX 基础]]
 [[State & Props]]
 [[组件生命周期]]
-[[]]
-# Component Communication
-
-# 受控组件 & 非受控组件
+[[组件通信]]
+[[受控组件 & 非受控组件]]
 
 # React 应用设计
 ```ad-info
