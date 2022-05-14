@@ -9,7 +9,7 @@
 构建 React 应用程序的基础就是组件。
 可以通过如下的几种方式去创建 React 组件：
 
-通过继承 `React.Component` 类去创建
+继承 `React.Component` 类去创建
 ```tsx
 import React from "react";
 
@@ -21,7 +21,14 @@ export default class HelloWorld extends React.Component {
 
 ```
 
+编写 **Functional Components 函数组件**
+```tsx
+import React from 'react';
 
+const HelloWorld = () => {
+  return <div>Hello World</div>;
+}
+```
 
 使用 `create-react-class` 模块。[不使用 ES6 – React](https://zh-hans.reactjs.org/docs/react-without-es6.html)
 ```tsx
