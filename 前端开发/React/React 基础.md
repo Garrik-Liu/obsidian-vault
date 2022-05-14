@@ -50,8 +50,7 @@ var HelloWorld = createReactClass({
 
 `render()` 方法是 class 组件中唯一必须实现的方法。[React.Component – React](https://zh-hans.reactjs.org/docs/react-component.html#render)
 
----
-
+## 组件渲染
 在 React 18 版本以前，通过 `ReactDOM.render`  方法来把组件渲染到页面中：
 - ReactDOM 来自 react-dom 库
 - 方法需要两个参数，第一个参数是需要渲染的组件(what) ，第二个参数是渲染组件的位置(where) 
@@ -154,15 +153,14 @@ title: 参考文档
 每个组件都包含 “生命周期方法”，你可以重写这些方法，以便于在运行过程中特定的阶段执行这些方法。
 根据创建组件的方式不同，组件的生命周期也不相同。
 
-## 继承 `React.Component` 类
+## Class 组件
+通过继承 `React.Component` 创建的组件。生命周期如下：
 
 <iframe src="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
-## 挂载时
 
-## 更新时
-## 卸载时
 
+## 函数组件
 
 # Component Communication
 
