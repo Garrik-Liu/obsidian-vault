@@ -36,7 +36,7 @@ const HelloWorld = () => {
 }
 ```
 
-使用 `create-react-class` 模块。[不使用 ES6 – React](https://zh-hans.reactjs.org/docs/react-without-es6.html)
+使用 `create-react-class` 模块。[不使用 ES6 – React](https://zh-hans.reactjs.org/docs/react-without-es6.html) ^57840e
 
 ```tsx
 var createReactClass = require('create-react-class');
