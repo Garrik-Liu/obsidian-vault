@@ -35,14 +35,5 @@ title: 参考文档
 
 ```
 
-# Higher Order Components
-```ad-info
-title: 参考文档
-[[高阶组件入门]]
-```
-
-# React Hook
-```ad-info
-title: 参考文档
-[[React Hook 入门]]
-```
+[高阶组件入门](app://obsidian.md/%E9%AB%98%E9%98%B6%E7%BB%84%E4%BB%B6%E5%85%A5%E9%97%A8)
+[React Hook 入门](app://obsidian.md/React%20Hook%20%E5%85%A5%E9%97%A8)
