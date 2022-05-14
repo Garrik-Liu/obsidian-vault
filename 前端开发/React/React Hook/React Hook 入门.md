@@ -32,7 +32,7 @@ const [todos, setTodos] = useState([{ text: '学习 Hook' }]);
 ```
 
 ## useEffect
-_Effect Hook_ 可以让你在函数组件中执行副作用操作。
+Effect Hook 可以让你在函数组件中执行副作用操作。
 
 通过使用这个 Hook，你可以告诉 React 组件需要在渲染后执行某些操作。React 会保存你传递的函数（我们将它称之为 “effect”），并且在执行 DOM 更新之后调用它。
 
@@ -282,7 +282,7 @@ Use it whenever a function is **passed by props** to a memorized component
 ```ad-example
 title: 示例 - useCallback 使用
 
-[[[useCallback Example - CodeSandbox](https://codesandbox.io/s/usecallback-example-i65yu3)
+[useCallback Example - CodeSandbox](https://codesandbox.io/s/usecallback-example-i65yu3)
 
 ~~~tsx
 
