@@ -158,8 +158,10 @@ title: 参考文档
 
 <iframe src="https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
 
-<div style="color: red; font-size: 50px;">挂载：</div>
-13
+<div style="font-size: 20px; color: #6d6d6d; line-height: 1.3; font-weight: 400;">
+    挂载：
+</div>
+
 
 
 
