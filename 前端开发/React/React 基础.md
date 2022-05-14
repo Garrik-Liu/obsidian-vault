@@ -1,6 +1,8 @@
 # 什么是 React 
-
-> [React 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
+```ad-info
+title: 参考文档
+[React 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
+```
 
 <iframe src="https://zh-hans.reactjs.org/docs/getting-started.html" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
 
@@ -103,7 +105,10 @@ React.createElement("div", {
 ```
 
 ## JSX 语法
-·
+```ad-info
+title: 参考文档
+[深入 JSX – React](https://zh-hans.reactjs.org/docs/jsx-in-depth.html)
+```
 
 # State
 
