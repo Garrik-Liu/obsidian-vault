@@ -32,18 +32,30 @@ ReactDOM 来自 react-dom 库,我们在 index.html 中也引入了这个库。Re
 
 # React 应用设计
 ```ad-info
-参考文档：
-- [React 哲学 – React](https://zh-hans.reactjs.org/docs/thinking-in-react.html)
-
+title: 参考文档
+[React 哲学 – React](https://zh-hans.reactjs.org/docs/thinking-in-react.html)
 ```
 
 # React Router
+```ad-info
+title: 参考文档
 [[React Router]]
+```
 
 # Redux
+```ad-info
+title: 参考文档
+
+```
 
 # Higher Order Components
+```ad-info
+title: 参考文档
 [[高阶组件入门]]
+```
 
 # React Hook
+```ad-info
+title: 参考文档
 [[React Hook 入门]]
+```
