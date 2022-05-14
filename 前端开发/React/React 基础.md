@@ -104,6 +104,21 @@ React.createElement("div", {
 }, React.createElement("h1", null, "Shopping List for ", props.name));
 ```
 
+```ad-tip
+由于 JSX 会编译为 `React.createElement` 调用形式，所以 `React` 库也必须包含在 JSX 代码作用域内。
+```tsx
+import React from 'react';
+```
+
+```
+```
+
+由于 JSX 会编译为 `React.createElement` 调用形式，所以 `React` 库也必须包含在 JSX 代码作用域内。
+```tsx
+import React from 'react';
+```
+
+
 ## JSX 语法
 ```ad-info
 title: 参考文档
