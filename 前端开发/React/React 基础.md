@@ -41,11 +41,12 @@ var HelloWorld = createReactClass({
 });
 ```
 
-React 通过组件中定义的 `render()` 方法的返回值来确定要渲染的内容。
-
-
+`render()` 方法是 class 组件中唯一必须实现的方法。[React.Component – React](https://zh-hans.reactjs.org/docs/react-component.html#render)
 
 ---
+
+
+
 
 # JSX
 
