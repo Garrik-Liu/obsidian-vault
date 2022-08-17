@@ -1,9 +1,15 @@
 ---
 date created: 2022-05-15 00:26
-date updated: 2022-05-15 00:26
+date updated: 2022-06-20 22:58
 ---
 
 # 什么是 React
+
+```plantuml
+@startuml 
+Alice -> Bob: test 
+@enduml
+```
 
 ```ad-info
 title: 参考文档
